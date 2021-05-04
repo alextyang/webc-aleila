@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Checkout - Gunk by Aleila</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <script src="../js/anime.js" charset="utf-8"></script>
+  </head>
+  <body class="shop">
+    <div class="content">
+      <h1>GUNK</h1>
+
+      <div class="checkProgress">
+        <h3 class="finished">Choose Item</h3>
+        <h3>-- Input Information --</h3>
+        <h3>Shipping</h3>
+        <h3>Payment</h3>
+      </div>
+
+      <h2 class="price">$18.32</h2>
+
+
+      <h3>Name*:</h3>
+      <form>
+        <input type="text"
+        class="form-control"
+        id="inputName"
+        placeholder="Full Name">
+      </form>
+
+      <h3>Address*:</h3>
+      <form>
+        <input type="street"
+        class="form-control"
+        id="inputStreet"
+        placeholder="Street">
+
+        <input type="city"
+        class="form-control"
+        id="inputCity"
+        placeholder="City">
+
+        <input type="state"
+        class="form-control"
+        id="inputState"
+        placeholder="State">
+
+        <input type="zip"
+        class="form-control"
+        id="inputZip"
+        placeholder="Zip">
+      </form>
+
+      <h3>Contact*:</h3>
+      <form>
+        <input type="text"
+        class="form-control"
+        id="inputPhone"
+        placeholder="Phone Number">
+
+        <input type="text"
+        class="form-control"
+        id="inputEmail"
+        placeholder="Email">
+      </form>
+
+      <form>
+        <input type="checkbox"
+        class="form-control"
+        id="agree1" name="agree1" checked>
+        <label for="agree1">I consent to receive promotional emails. (-$0.32)</label><br>
+
+        <input type="checkbox"
+        class="form-control"
+        id="agree2" name="agree2" checked>
+        <label for="agree2">I consent to allow my information to be shared for marketing purposes. (-$5.23)</label><br>
+
+        <input type="checkbox"
+        class="form-control"
+        id="agree3" name="agree3" checked disabled>
+        <label for="agree3" >I agree to a ever-changing list of company policies*.</label><br>
+
+        <input type="checkbox"
+        class="form-control"
+        id="agree4" name="agree4" checked disabled>
+        <label for="agree4" >Remember me*.</label><br>
+      </form>
+
+      <a href="./shipping.html">
+        <button type="button" name="next">Next</button>
+      </a>
+
+    </div>
+    <img src="../img/logo.png" alt="Aleila Corporation" class="mainLogo">
+  </body>
+</html>
